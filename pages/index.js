@@ -16,9 +16,9 @@ export default function Home() {
       <div className='m-auto px-5'>
         <Navigation nav={[]}/>
         <p className='text-3xl mb-5'> Select Regulation  </p>
-        <Button className='mb-5 w-full text-lg' variant="contained" href="/R2013">
+        <Button className='w-full text-lg' variant="contained" href="/R2013">
           R2013
-        </Button> <br />
+        </Button> <br /> <br />
         <Button variant="contained" className='w-full text-lg' href="/R2017">
           R2017
         </Button>

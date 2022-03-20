@@ -13,9 +13,9 @@ export default function R2013() {
             <div className="m-auto">
                 <Navigation nav={route}/>
                 <p className='text-3xl mb-5'> Select Type  </p>
-                <Button className='mb-5 w-full text-lg' variant="contained" href="/R2017/GPA">
+                <Button className='w-full text-lg' variant="contained" href="/R2017/GPA">
                     GPA
-                </Button> <br />
+                </Button> <br /><br />
                 <Button variant="contained" className='w-full text-lg' href="/R2017/CGPA">
                     CGPA
                 </Button>
